@@ -22,6 +22,10 @@ initialise the spec submodule with:
 
     git submodule update --init spec
 
+And from the `spec` directory:
+
+    git pull origin master
+
 Then run the generators:
 
     go generate ./models
