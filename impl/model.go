@@ -1,9 +1,9 @@
 package impl
 
 import (
-	"github.com/crabmusket/gosunspec"
-	"github.com/crabmusket/gosunspec/smdx"
-	"github.com/crabmusket/gosunspec/spi"
+	"github.com/andig/gosunspec"
+	"github.com/andig/gosunspec/smdx"
+	"github.com/andig/gosunspec/spi"
 )
 
 type model struct {

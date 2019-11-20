@@ -1,15 +1,15 @@
 package memory
 
 import (
-	sunspec "github.com/crabmusket/gosunspec"
-	"github.com/crabmusket/gosunspec/models/model101"
-	"github.com/crabmusket/gosunspec/models/model11"
-	"github.com/crabmusket/gosunspec/models/model304"
-	"github.com/crabmusket/gosunspec/models/model401"
-	"github.com/crabmusket/gosunspec/models/model501"
-	"github.com/crabmusket/gosunspec/models/model502"
-	"github.com/crabmusket/gosunspec/models/model63001"
-	"github.com/crabmusket/gosunspec/typelabel"
+	sunspec "github.com/andig/gosunspec"
+	"github.com/andig/gosunspec/models/model101"
+	"github.com/andig/gosunspec/models/model11"
+	"github.com/andig/gosunspec/models/model304"
+	"github.com/andig/gosunspec/models/model401"
+	"github.com/andig/gosunspec/models/model501"
+	"github.com/andig/gosunspec/models/model502"
+	"github.com/andig/gosunspec/models/model63001"
+	"github.com/andig/gosunspec/typelabel"
 )
 
 var ComplexEmptySlab []byte

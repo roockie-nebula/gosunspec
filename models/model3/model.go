@@ -5,9 +5,9 @@
 package model3
 
 import (
-	"github.com/crabmusket/gosunspec"
-	"github.com/crabmusket/gosunspec/smdx"
-	"github.com/crabmusket/gosunspec/typelabel"
+	"github.com/andig/gosunspec"
+	"github.com/andig/gosunspec/smdx"
+	"github.com/andig/gosunspec/typelabel"
 )
 
 // Block3 - Secure Dataset Read Request - Request a digial signature over a specifed set of data registers

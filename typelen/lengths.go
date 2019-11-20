@@ -1,7 +1,7 @@
 package typelen
 
 import (
-	"github.com/crabmusket/gosunspec/typelabel"
+	"github.com/andig/gosunspec/typelabel"
 )
 
 const (

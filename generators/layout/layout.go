@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"github.com/crabmusket/gosunspec/layout"
+	"github.com/andig/gosunspec/layout"
 	"github.com/fatih/camelcase"
 	"io/ioutil"
 	"log"
@@ -16,8 +16,8 @@ const layout_template = `
 package layout
 
 import (
-	"github.com/crabmusket/gosunspec/layout"
-	"github.com/crabmusket/gosunspec/generators/layout/util"
+	"github.com/andig/gosunspec/layout"
+	"github.com/andig/gosunspec/generators/layout/util"
 )
 
 var {{.Layout.Name}} = &layout.RawLayout{

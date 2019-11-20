@@ -5,9 +5,9 @@
 package model1
 
 import (
-	"github.com/crabmusket/gosunspec"
-	"github.com/crabmusket/gosunspec/smdx"
-	"github.com/crabmusket/gosunspec/typelabel"
+	"github.com/andig/gosunspec"
+	"github.com/andig/gosunspec/smdx"
+	"github.com/andig/gosunspec/typelabel"
 )
 
 // Block1 - Common - All SunSpec compliant devices must include this as the first model

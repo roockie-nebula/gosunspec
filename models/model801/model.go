@@ -5,9 +5,9 @@
 package model801
 
 import (
-	"github.com/crabmusket/gosunspec"
-	"github.com/crabmusket/gosunspec/smdx"
-	"github.com/crabmusket/gosunspec/typelabel"
+	"github.com/andig/gosunspec"
+	"github.com/andig/gosunspec/smdx"
+	"github.com/andig/gosunspec/typelabel"
 )
 
 // Block801 - Energy Storage Base Model (DEPRECATED) - This model has been deprecated.

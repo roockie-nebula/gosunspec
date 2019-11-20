@@ -9,7 +9,7 @@ package xml
 
 import (
 	"encoding/xml"
-	"github.com/crabmusket/gosunspec"
+	"github.com/andig/gosunspec"
 	"io"
 	"time"
 )

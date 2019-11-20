@@ -3,10 +3,10 @@ package layout
 import (
 	"encoding/xml"
 	"errors"
-	"github.com/crabmusket/gosunspec"
-	"github.com/crabmusket/gosunspec/impl"
-	"github.com/crabmusket/gosunspec/smdx"
-	"github.com/crabmusket/gosunspec/spi"
+	"github.com/andig/gosunspec"
+	"github.com/andig/gosunspec/impl"
+	"github.com/andig/gosunspec/smdx"
+	"github.com/andig/gosunspec/spi"
 	"io"
 	"log"
 )

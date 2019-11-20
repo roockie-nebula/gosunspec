@@ -2,9 +2,9 @@ package modbus
 
 import (
 	"errors"
-	"github.com/crabmusket/gosunspec"
-	"github.com/crabmusket/gosunspec/layout"
-	"github.com/crabmusket/gosunspec/spi"
+	"github.com/andig/gosunspec"
+	"github.com/andig/gosunspec/layout"
+	"github.com/andig/gosunspec/spi"
 	"github.com/goburrow/modbus"
 	"github.com/goburrow/serial"
 )

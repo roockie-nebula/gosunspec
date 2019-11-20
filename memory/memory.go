@@ -1,17 +1,17 @@
 // memory is a package which allows sunspec devices to be simulated in memory
 // so that such devices canbe accessed with the SunSpec API implemented
-// by http://github.com/crabmusket/gosunspec
+// by http://github.com/andig/gosunspec
 package memory
 
 import (
 	"encoding/binary"
 	"errors"
-	"github.com/crabmusket/gosunspec"
-	"github.com/crabmusket/gosunspec/impl"
-	"github.com/crabmusket/gosunspec/layout"
-	"github.com/crabmusket/gosunspec/models/model1"
-	"github.com/crabmusket/gosunspec/smdx"
-	"github.com/crabmusket/gosunspec/spi"
+	"github.com/andig/gosunspec"
+	"github.com/andig/gosunspec/impl"
+	"github.com/andig/gosunspec/layout"
+	"github.com/andig/gosunspec/models/model1"
+	"github.com/andig/gosunspec/smdx"
+	"github.com/andig/gosunspec/spi"
 )
 
 var (

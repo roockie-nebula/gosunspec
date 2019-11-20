@@ -5,9 +5,9 @@
 package model404
 
 import (
-	"github.com/crabmusket/gosunspec"
-	"github.com/crabmusket/gosunspec/smdx"
-	"github.com/crabmusket/gosunspec/typelabel"
+	"github.com/andig/gosunspec"
+	"github.com/andig/gosunspec/smdx"
+	"github.com/andig/gosunspec/typelabel"
 )
 
 // Block404 - String Combiner (Advanced) - An advanced string combiner including voltage and energy measurements

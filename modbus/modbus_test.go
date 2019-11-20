@@ -1,9 +1,9 @@
 package modbus
 
 import (
-	"github.com/crabmusket/gosunspec"
-	"github.com/crabmusket/gosunspec/memory"
-	//"github.com/crabmusket/gosunspec/typelabel"
+	"github.com/andig/gosunspec"
+	"github.com/andig/gosunspec/memory"
+	//"github.com/andig/gosunspec/typelabel"
 	"testing"
 )
 

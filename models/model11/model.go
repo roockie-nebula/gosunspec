@@ -5,9 +5,9 @@
 package model11
 
 import (
-	"github.com/crabmusket/gosunspec"
-	"github.com/crabmusket/gosunspec/smdx"
-	"github.com/crabmusket/gosunspec/typelabel"
+	"github.com/andig/gosunspec"
+	"github.com/andig/gosunspec/smdx"
+	"github.com/andig/gosunspec/typelabel"
 )
 
 // Block11 - Ethernet Link Layer - Include to support a wired ethernet port

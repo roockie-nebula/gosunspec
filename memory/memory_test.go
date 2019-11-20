@@ -2,12 +2,12 @@ package memory
 
 import (
 	"errors"
-	"github.com/crabmusket/gosunspec"
-	"github.com/crabmusket/gosunspec/models/model1"
-	"github.com/crabmusket/gosunspec/models/model101"
-	"github.com/crabmusket/gosunspec/models/model304"
-	"github.com/crabmusket/gosunspec/models/model502"
-	"github.com/crabmusket/gosunspec/spi"
+	"github.com/andig/gosunspec"
+	"github.com/andig/gosunspec/models/model1"
+	"github.com/andig/gosunspec/models/model101"
+	"github.com/andig/gosunspec/models/model304"
+	"github.com/andig/gosunspec/models/model502"
+	"github.com/andig/gosunspec/spi"
 	"testing"
 )
 

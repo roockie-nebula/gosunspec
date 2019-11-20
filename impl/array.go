@@ -1,8 +1,8 @@
 package impl
 
 import (
-	"github.com/crabmusket/gosunspec"
-	"github.com/crabmusket/gosunspec/spi"
+	"github.com/andig/gosunspec"
+	"github.com/andig/gosunspec/spi"
 )
 
 type array struct {

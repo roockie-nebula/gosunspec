@@ -2,7 +2,7 @@ package layout
 
 import (
 	"errors"
-	"github.com/crabmusket/gosunspec/spi"
+	"github.com/andig/gosunspec/spi"
 )
 
 const (

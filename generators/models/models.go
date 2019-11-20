@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/crabmusket/gosunspec/smdx"
+	"github.com/andig/gosunspec/smdx"
 	"io/ioutil"
 	"log"
 	"os"
@@ -74,9 +74,9 @@ func init() {
 package model{{(index .Model.Models 0).Id}}
 
 import (
-	"github.com/crabmusket/gosunspec/smdx"
-	"github.com/crabmusket/gosunspec"
-	"github.com/crabmusket/gosunspec/typelabel"
+	"github.com/andig/gosunspec/smdx"
+	"github.com/andig/gosunspec"
+	"github.com/andig/gosunspec/typelabel"
 )
 {{template "model" .Model}}
 `
@@ -101,7 +101,7 @@ func main() {
 	var topPackage string
 
 	flag.StringVar(&smdxDir, "smdx-dir", "../spec/smdx/", "The location of the SMDX directory")
-	flag.StringVar(&topPackage, "top-package", "github.com/crabmusket/gosunspec", "The go path to the package containing the models package.")
+	flag.StringVar(&topPackage, "top-package", "github.com/andig/gosunspec", "The go path to the package containing the models package.")
 	flag.Parse()
 
 	files, err := ioutil.ReadDir(smdxDir)

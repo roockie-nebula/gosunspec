@@ -2,10 +2,10 @@ package xml
 
 import (
 	"bytes"
-	"github.com/crabmusket/gosunspec"
-	"github.com/crabmusket/gosunspec/memory"
-	"github.com/crabmusket/gosunspec/models/model1"
-	"github.com/crabmusket/gosunspec/models/model101"
+	"github.com/andig/gosunspec"
+	"github.com/andig/gosunspec/memory"
+	"github.com/andig/gosunspec/models/model1"
+	"github.com/andig/gosunspec/models/model101"
 	"testing"
 )
 

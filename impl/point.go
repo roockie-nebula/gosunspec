@@ -7,11 +7,11 @@ import (
 	"math"
 	"strconv"
 
-	sunspec "github.com/crabmusket/gosunspec"
-	"github.com/crabmusket/gosunspec/smdx"
-	"github.com/crabmusket/gosunspec/spi"
-	"github.com/crabmusket/gosunspec/typelabel"
-	"github.com/crabmusket/gosunspec/typelen"
+	sunspec "github.com/andig/gosunspec"
+	"github.com/andig/gosunspec/smdx"
+	"github.com/andig/gosunspec/spi"
+	"github.com/andig/gosunspec/typelabel"
+	"github.com/andig/gosunspec/typelen"
 )
 
 var (

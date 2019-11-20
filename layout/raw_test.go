@@ -3,10 +3,10 @@ package layout_test
 import (
 	"bytes"
 	"encoding/hex"
-	"github.com/crabmusket/gosunspec"
-	"github.com/crabmusket/gosunspec/layout"
-	"github.com/crabmusket/gosunspec/memory"
-	"github.com/crabmusket/gosunspec/spi"
+	"github.com/andig/gosunspec"
+	"github.com/andig/gosunspec/layout"
+	"github.com/andig/gosunspec/memory"
+	"github.com/andig/gosunspec/spi"
 	"log"
 	"sync"
 	"testing"
@@ -16,7 +16,7 @@ var xml = `
 <layout>
 	<device>
 		<model id="1"     addr="4" />
-		<model id="11"    addr="72" /> 
+		<model id="11"    addr="72" />
 		<model id="101"   addr="87" />
 		<model id="304"   addr="139" repeats="2"/>
 		<model id="401"   addr="159" repeats="2"/>

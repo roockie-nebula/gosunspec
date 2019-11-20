@@ -2,7 +2,7 @@ package xml
 
 import (
 	"bytes"
-	_ "github.com/crabmusket/gosunspec/models/model101"
+	_ "github.com/andig/gosunspec/models/model101"
 	"testing"
 )
 
@@ -14,7 +14,7 @@ const example = `
 <SunSpecData v="1">
 	<d ns="mac" lid="11:22:33:44:55:66" man="gsc" mod="r300" sn="123456" t="2011-05-12T09:21:49Z" cid="2">
 		<m id="1">
-			<p id="Mn"></p> 
+			<p id="Mn"></p>
 		</m>
 		<m id="101" x="1">
 			<p id="A" sf="-2">3043</p>

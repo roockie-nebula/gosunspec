@@ -1,8 +1,8 @@
 package impl
 
 import (
-	"github.com/crabmusket/gosunspec/spi"
-	"github.com/crabmusket/gosunspec/typelabel"
+	"github.com/andig/gosunspec/spi"
+	"github.com/andig/gosunspec/typelabel"
 )
 
 // scaleFactorFirstOrder defines the sort order for points in which scale factors appear before non-scale factors

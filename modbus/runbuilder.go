@@ -1,7 +1,7 @@
 package modbus
 
 import (
-	"github.com/crabmusket/gosunspec/spi"
+	"github.com/andig/gosunspec/spi"
 )
 
 // runBuilder breaks a sequence of points into a sequence of runs, where each run
