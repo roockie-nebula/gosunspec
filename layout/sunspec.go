@@ -49,6 +49,9 @@ func (s *SunSpecLayout) Open(a AddressSpaceDriver) (spi.ArraySPI, error) {
 	offset := uint16(2) // number of 16 bit registers
 	for {
 		if bytes, err := a.ReadWords(base+offset, 2); err != nil {
+			if offset > 2 { // model chain partially available
+				return array, err
+			}
 			return nil, err
 		} else if len(bytes) < 4 {
 			return nil, ErrShortRead
