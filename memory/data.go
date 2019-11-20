@@ -1,7 +1,7 @@
 package memory
 
 import (
-	"github.com/crabmusket/gosunspec"
+	sunspec "github.com/crabmusket/gosunspec"
 	"github.com/crabmusket/gosunspec/models/model101"
 	"github.com/crabmusket/gosunspec/models/model11"
 	"github.com/crabmusket/gosunspec/models/model304"
