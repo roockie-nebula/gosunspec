@@ -2,7 +2,8 @@ package modbus
 
 import (
 	"errors"
-	"github.com/andig/gosunspec"
+
+	sunspec "github.com/andig/gosunspec"
 	"github.com/andig/gosunspec/layout"
 	"github.com/andig/gosunspec/spi"
 	"github.com/goburrow/modbus"
@@ -110,7 +111,7 @@ func (p *modbusDriver) Read(block spi.BlockSPI, pointIds ...string) error {
 		runs := newRunBuilder()
 		offsets := map[string]uint16{} // offsets into read buffer, by point
 		off := uint16(0)               // the current offset
-		toRead := map[string]bool{}    // the set of ponts to read
+		toRead := map[string]bool{}    // the set of points to read
 
 		// initialise the toRead set
 		for _, p := range applicationOrder {
