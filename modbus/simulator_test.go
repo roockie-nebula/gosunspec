@@ -2,7 +2,8 @@ package modbus
 
 import (
 	"errors"
-	"github.com/goburrow/modbus"
+
+	"github.com/grid-x/modbus"
 )
 
 var ErrNotSupported = errors.New("not supported")

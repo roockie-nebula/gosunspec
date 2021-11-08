@@ -6,8 +6,8 @@ import (
 	sunspec "github.com/andig/gosunspec"
 	"github.com/andig/gosunspec/layout"
 	"github.com/andig/gosunspec/spi"
-	"github.com/goburrow/modbus"
-	"github.com/goburrow/serial"
+	"github.com/grid-x/modbus"
+	"github.com/grid-x/serial"
 )
 
 const (

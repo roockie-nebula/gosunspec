@@ -12,19 +12,20 @@ package main
 import (
 	xmlencoding "encoding/xml"
 	"flag"
-	"github.com/andig/gosunspec"
-	"github.com/andig/gosunspec/layout"
-	"github.com/andig/gosunspec/modbus"
-	_ "github.com/andig/gosunspec/models"
-	"github.com/andig/gosunspec/smdx"
-	"github.com/andig/gosunspec/xml"
-	modbusapi "github.com/goburrow/modbus"
 	"io"
 	"io/ioutil"
 	"log"
 	"os"
 	"strings"
 	"time"
+
+	sunspec "github.com/andig/gosunspec"
+	"github.com/andig/gosunspec/layout"
+	"github.com/andig/gosunspec/modbus"
+	_ "github.com/andig/gosunspec/models"
+	"github.com/andig/gosunspec/smdx"
+	"github.com/andig/gosunspec/xml"
+	modbusapi "github.com/grid-x/modbus"
 )
 
 func openModbus(device string, config func(handler *modbusapi.RTUClientHandler)) (modbusapi.Client, func(), error) {
