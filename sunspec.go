@@ -25,7 +25,7 @@ var (
 )
 
 // Logger sets the globally used logger for this library.
-var Logger *log.Logger
+var Logger = log.Default()
 
 // ModelId is the type of model identifiers used with the Device.Model and Device.MustModel
 // calls.
