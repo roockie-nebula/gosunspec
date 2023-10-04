@@ -1,4 +1,4 @@
-module github.com/andig/gosunspec
+module github.com/roockie-nebula/gosunspec
 
 go 1.13
 
