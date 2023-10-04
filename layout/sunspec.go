@@ -2,7 +2,7 @@ package layout
 
 import (
 	"encoding/binary"
-	"log"
+	sunspec "github.com/andig/gosunspec"
 	"net"
 
 	"github.com/andig/gosunspec/impl"
@@ -84,7 +84,7 @@ func (s *SunSpecLayout) Open(a AddressSpaceDriver) (spi.ArraySPI, error) {
 				}))
 				dev.AddModel(m)
 			} else {
-				log.Printf("unrecognised model identifier skipped @ offset: %d, %d\n", modelId, offset)
+				sunspec.Logger.Printf("unrecognised model identifier skipped @ offset: %d, %d\n", modelId, offset)
 			}
 			offset += 2 + modelLength
 		}

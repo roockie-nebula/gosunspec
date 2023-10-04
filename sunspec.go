@@ -7,14 +7,14 @@
 //
 // The API is intended to be backed by different physical implementations, including:
 //
-//  * Modbus RTU/TCP (for purposes of connecting to remote devices)
-//  * XML (for purposes of data interchange)
-//  * memory (for purposes of testing)
-//
+//   - Modbus RTU/TCP (for purposes of connecting to remote devices)
+//   - XML (for purposes of data interchange)
+//   - memory (for purposes of testing)
 package sunspec
 
 import (
 	"errors"
+	"log"
 )
 
 var (
@@ -23,6 +23,9 @@ var (
 	ErrTooManyModels = errors.New("too many models")
 	ErrNoSuchPoint   = errors.New("no such point")
 )
+
+// Logger sets the globally used logger for this library.
+var Logger log.Logger
 
 // ModelId is the type of model identifiers used with the Device.Model and Device.MustModel
 // calls.
@@ -246,7 +249,7 @@ type Block interface {
 // ScaledValue() will panic if either the Point or its related scaling factor
 // Point are in an error state.
 //
-// A note about use of panics in the definition of this interface
+// # A note about use of panics in the definition of this interface
 //
 // The intent of extensive use of panics in the definition of this interface is
 // to permit detection of unsafe access to data without requiring each and every

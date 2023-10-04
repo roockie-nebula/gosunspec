@@ -8,7 +8,6 @@ import (
 	"github.com/andig/gosunspec/smdx"
 	"github.com/andig/gosunspec/spi"
 	"io"
-	"log"
 )
 
 var ErrAbsoluteAddress = errors.New("The absolute address for block cannot be calculated from the layout.")
@@ -98,7 +97,7 @@ func (s *RawLayout) Open(driver AddressSpaceDriver) (spi.ArraySPI, error) {
 				dev.AddModel(model)
 			} else {
 				nextAddr = nil
-				log.Printf("unrecognised model identifier skipped: %d\n", m.ModelId)
+				sunspec.Logger.Printf("unrecognised model identifier skipped: %d\n", m.ModelId)
 			}
 		}
 		array.AddDevice(dev)

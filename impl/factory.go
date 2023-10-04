@@ -1,8 +1,6 @@
 package impl
 
 import (
-	"log"
-
 	sunspec "github.com/andig/gosunspec"
 	"github.com/andig/gosunspec/smdx"
 	"github.com/andig/gosunspec/spi"
@@ -75,7 +73,7 @@ func NewContiguousModel(me *smdx.ModelElement, bound uint16, phys spi.Driver) sp
 		// that API may not correctly map points of at least some blocks
 		// in this case.
 		if nr*rlen+block0len != int(bound) {
-			log.Printf("warning: inconsistent model and block lengths: %d, %d, %d*%d. YMMV.", bound, block0len, nr, rlen)
+			sunspec.Logger.Printf("warning: inconsistent model and block lengths: %d, %d, %d*%d. YMMV.", bound, block0len, nr, rlen)
 		}
 	}
 	return m

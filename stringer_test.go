@@ -49,4 +49,5 @@ func TestPad(t *testing.T) {
 
 	if v := p.String(); v != "0x1234" {
 		t.Errorf("unexpected result, got %v", v)
-	}}
+	}
+}
