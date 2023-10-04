@@ -4,9 +4,9 @@ package model6
 // You can regenerate it by running 'go generate ./models' from the directory above.
 
 import (
-	"github.com/andig/gosunspec"
-	"github.com/andig/gosunspec/smdx"
-	"github.com/andig/gosunspec/typelabel"
+	"github.com/roockie-nebula/gosunspec"
+	"github.com/roockie-nebula/gosunspec/smdx"
+	"github.com/roockie-nebula/gosunspec/typelabel"
 )
 
 // Block6 - Secure Write Sequential Request - Include a digital signature along with the control data

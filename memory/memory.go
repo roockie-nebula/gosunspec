@@ -1,17 +1,17 @@
 // memory is a package which allows sunspec devices to be simulated in memory
 // so that such devices canbe accessed with the SunSpec API implemented
-// by http://github.com/andig/gosunspec
+// by http://github.com/roockie-nebula/gosunspec
 package memory
 
 import (
 	"encoding/binary"
 	"errors"
-	"github.com/andig/gosunspec"
-	"github.com/andig/gosunspec/impl"
-	"github.com/andig/gosunspec/layout"
-	"github.com/andig/gosunspec/models/model1"
-	"github.com/andig/gosunspec/smdx"
-	"github.com/andig/gosunspec/spi"
+	"github.com/roockie-nebula/gosunspec"
+	"github.com/roockie-nebula/gosunspec/impl"
+	"github.com/roockie-nebula/gosunspec/layout"
+	"github.com/roockie-nebula/gosunspec/models/model1"
+	"github.com/roockie-nebula/gosunspec/smdx"
+	"github.com/roockie-nebula/gosunspec/spi"
 )
 
 var (

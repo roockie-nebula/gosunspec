@@ -2,10 +2,10 @@ package xml
 
 import (
 	"bytes"
-	"github.com/andig/gosunspec"
-	"github.com/andig/gosunspec/memory"
-	"github.com/andig/gosunspec/models/model1"
-	"github.com/andig/gosunspec/models/model101"
+	"github.com/roockie-nebula/gosunspec"
+	"github.com/roockie-nebula/gosunspec/memory"
+	"github.com/roockie-nebula/gosunspec/models/model1"
+	"github.com/roockie-nebula/gosunspec/models/model101"
 	"testing"
 )
 

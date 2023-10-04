@@ -1,7 +1,7 @@
 package impl
 
 import (
-	"github.com/andig/gosunspec/spi"
+	"github.com/roockie-nebula/gosunspec/spi"
 )
 
 // A structure which can be anchored to the physical implementation

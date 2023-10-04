@@ -5,10 +5,10 @@ import (
 	"math"
 	"testing"
 
-	sunspec "github.com/andig/gosunspec"
-	"github.com/andig/gosunspec/smdx"
-	"github.com/andig/gosunspec/spi"
-	"github.com/andig/gosunspec/typelabel"
+	sunspec "github.com/roockie-nebula/gosunspec"
+	"github.com/roockie-nebula/gosunspec/smdx"
+	"github.com/roockie-nebula/gosunspec/spi"
+	"github.com/roockie-nebula/gosunspec/typelabel"
 )
 
 func TestCompletePointInterface(t *testing.T) {

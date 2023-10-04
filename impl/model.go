@@ -1,9 +1,9 @@
 package impl
 
 import (
-	sunspec "github.com/andig/gosunspec"
-	"github.com/andig/gosunspec/smdx"
-	"github.com/andig/gosunspec/spi"
+	sunspec "github.com/roockie-nebula/gosunspec"
+	"github.com/roockie-nebula/gosunspec/smdx"
+	"github.com/roockie-nebula/gosunspec/spi"
 )
 
 type model struct {

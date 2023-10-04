@@ -31,7 +31,7 @@ var Logger log.Logger
 // calls.
 //
 // To guarantee that a model's SMDX document is loaded into the SMDX registry you can use
-// the value of modelXXXX.ModelID from the github.com/andig/gosunspec/models/modelXXXX
+// the value of modelXXXX.ModelID from the github.com/roockie-nebula/gosunspec/models/modelXXXX
 // package to refer to the model, a side effect of which is to register the related SMDX model.
 type ModelId uint16
 

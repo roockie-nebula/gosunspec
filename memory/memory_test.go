@@ -2,12 +2,12 @@ package memory
 
 import (
 	"errors"
-	"github.com/andig/gosunspec"
-	"github.com/andig/gosunspec/models/model1"
-	"github.com/andig/gosunspec/models/model101"
-	"github.com/andig/gosunspec/models/model304"
-	"github.com/andig/gosunspec/models/model502"
-	"github.com/andig/gosunspec/spi"
+	"github.com/roockie-nebula/gosunspec"
+	"github.com/roockie-nebula/gosunspec/models/model1"
+	"github.com/roockie-nebula/gosunspec/models/model101"
+	"github.com/roockie-nebula/gosunspec/models/model304"
+	"github.com/roockie-nebula/gosunspec/models/model502"
+	"github.com/roockie-nebula/gosunspec/spi"
 	"testing"
 )
 

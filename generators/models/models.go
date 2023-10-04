@@ -11,7 +11,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/andig/gosunspec/smdx"
+	"github.com/roockie-nebula/gosunspec/smdx"
 )
 
 const file = `
@@ -77,9 +77,9 @@ package model{{(index .Model.Models 0).Id}}
 // You can regenerate it by running 'go generate ./models' from the directory above.
 
 import (
-	"github.com/andig/gosunspec"
-	"github.com/andig/gosunspec/smdx"
-	"github.com/andig/gosunspec/typelabel"
+	"github.com/roockie-nebula/gosunspec"
+	"github.com/roockie-nebula/gosunspec/smdx"
+	"github.com/roockie-nebula/gosunspec/typelabel"
 )
 {{template "model" .Model}}
 `
@@ -103,7 +103,7 @@ func main() {
 	var topPackage string
 
 	flag.StringVar(&smdxDir, "smdx-dir", "../spec/smdx/", "The location of the SMDX directory")
-	flag.StringVar(&topPackage, "top-package", "github.com/andig/gosunspec", "The go path to the package containing the models package.")
+	flag.StringVar(&topPackage, "top-package", "github.com/roockie-nebula/gosunspec", "The go path to the package containing the models package.")
 	flag.Parse()
 
 	files, err := ioutil.ReadDir(smdxDir)

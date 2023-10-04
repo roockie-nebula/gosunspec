@@ -1,15 +1,15 @@
 package memory
 
 import (
-	sunspec "github.com/andig/gosunspec"
-	"github.com/andig/gosunspec/models/model101"
-	"github.com/andig/gosunspec/models/model11"
-	"github.com/andig/gosunspec/models/model304"
-	"github.com/andig/gosunspec/models/model401"
-	"github.com/andig/gosunspec/models/model501"
-	"github.com/andig/gosunspec/models/model502"
-	"github.com/andig/gosunspec/models/model63001"
-	"github.com/andig/gosunspec/typelabel"
+	sunspec "github.com/roockie-nebula/gosunspec"
+	"github.com/roockie-nebula/gosunspec/models/model101"
+	"github.com/roockie-nebula/gosunspec/models/model11"
+	"github.com/roockie-nebula/gosunspec/models/model304"
+	"github.com/roockie-nebula/gosunspec/models/model401"
+	"github.com/roockie-nebula/gosunspec/models/model501"
+	"github.com/roockie-nebula/gosunspec/models/model502"
+	"github.com/roockie-nebula/gosunspec/models/model63001"
+	"github.com/roockie-nebula/gosunspec/typelabel"
 )
 
 var ComplexEmptySlab []byte

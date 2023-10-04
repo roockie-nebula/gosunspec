@@ -3,11 +3,11 @@ package modbus
 import (
 	"errors"
 
-	sunspec "github.com/andig/gosunspec"
-	"github.com/andig/gosunspec/layout"
-	"github.com/andig/gosunspec/spi"
 	"github.com/grid-x/modbus"
 	"github.com/grid-x/serial"
+	sunspec "github.com/roockie-nebula/gosunspec"
+	"github.com/roockie-nebula/gosunspec/layout"
+	"github.com/roockie-nebula/gosunspec/spi"
 )
 
 const (

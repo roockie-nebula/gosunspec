@@ -1,9 +1,9 @@
 package modbus
 
 import (
-	"github.com/andig/gosunspec"
-	"github.com/andig/gosunspec/memory"
-	//"github.com/andig/gosunspec/typelabel"
+	"github.com/roockie-nebula/gosunspec"
+	"github.com/roockie-nebula/gosunspec/memory"
+	//"github.com/roockie-nebula/gosunspec/typelabel"
 	"testing"
 )
 

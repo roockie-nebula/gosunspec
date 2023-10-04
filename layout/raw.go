@@ -3,10 +3,10 @@ package layout
 import (
 	"encoding/xml"
 	"errors"
-	"github.com/andig/gosunspec"
-	"github.com/andig/gosunspec/impl"
-	"github.com/andig/gosunspec/smdx"
-	"github.com/andig/gosunspec/spi"
+	"github.com/roockie-nebula/gosunspec"
+	"github.com/roockie-nebula/gosunspec/impl"
+	"github.com/roockie-nebula/gosunspec/smdx"
+	"github.com/roockie-nebula/gosunspec/spi"
 	"io"
 )
 

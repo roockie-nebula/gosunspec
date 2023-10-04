@@ -4,9 +4,9 @@ package model113
 // You can regenerate it by running 'go generate ./models' from the directory above.
 
 import (
-	"github.com/andig/gosunspec"
-	"github.com/andig/gosunspec/smdx"
-	"github.com/andig/gosunspec/typelabel"
+	"github.com/roockie-nebula/gosunspec"
+	"github.com/roockie-nebula/gosunspec/smdx"
+	"github.com/roockie-nebula/gosunspec/typelabel"
 )
 
 // Block113 - Inverter (Three Phase) FLOAT - Include this model for three phase inverter monitoring using float values

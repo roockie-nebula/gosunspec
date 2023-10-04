@@ -2,12 +2,12 @@ package xml
 
 import (
 	"errors"
-	"github.com/andig/gosunspec"
-	"github.com/andig/gosunspec/impl"
-	"github.com/andig/gosunspec/models/model1"
-	"github.com/andig/gosunspec/smdx"
-	"github.com/andig/gosunspec/spi"
-	"github.com/andig/gosunspec/typelabel"
+	"github.com/roockie-nebula/gosunspec"
+	"github.com/roockie-nebula/gosunspec/impl"
+	"github.com/roockie-nebula/gosunspec/models/model1"
+	"github.com/roockie-nebula/gosunspec/smdx"
+	"github.com/roockie-nebula/gosunspec/spi"
+	"github.com/roockie-nebula/gosunspec/typelabel"
 	_ "log"
 	"strconv"
 	"strings"
@@ -143,9 +143,7 @@ func OpenDevice(dx *DeviceElement) (sunspec.Device, error) {
 	return d, nil
 }
 
-//
 // For a fake model1 element, initialise it to be consistent with the device element
-//
 func syncDeviceElementToModel1(dx *DeviceElement, d sunspec.Device) {
 	b := d.MustModel(model1.ModelID).MustBlock(0)
 	b.MustPoint(model1.SN).SetStringValue(dx.Serial)

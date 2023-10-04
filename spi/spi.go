@@ -5,7 +5,7 @@
 package spi
 
 import (
-	"github.com/andig/gosunspec"
+	"github.com/roockie-nebula/gosunspec"
 )
 
 // Driver is the interface implemented by components that can map

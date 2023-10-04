@@ -2,7 +2,7 @@ package layout
 
 import (
 	"errors"
-	"github.com/andig/gosunspec/spi"
+	"github.com/roockie-nebula/gosunspec/spi"
 )
 
 const (

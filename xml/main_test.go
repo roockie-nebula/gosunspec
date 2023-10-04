@@ -2,7 +2,7 @@ package xml
 
 import (
 	"bytes"
-	_ "github.com/andig/gosunspec/models/model101"
+	_ "github.com/roockie-nebula/gosunspec/models/model101"
 	"testing"
 )
 

@@ -1,8 +1,8 @@
 package impl
 
 import (
-	"github.com/andig/gosunspec/spi"
-	"github.com/andig/gosunspec/typelabel"
+	"github.com/roockie-nebula/gosunspec/spi"
+	"github.com/roockie-nebula/gosunspec/typelabel"
 )
 
 // scaleFactorFirstOrder defines the sort order for points in which scale factors appear before non-scale factors

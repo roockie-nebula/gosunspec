@@ -3,7 +3,7 @@
 //
 // For examople:
 //
-//     sunspecio --in:type=modbus --in:device=/dev/ttyS0 --in:speed=38400 --out:type=xml
+//	sunspecio --in:type=modbus --in:device=/dev/ttyS0 --in:speed=38400 --out:type=xml
 //
 // will read the Sunspec address space in the Modbus device connected to the specified serial port
 // and copy it into an xml document which is written to stdout.
@@ -19,13 +19,13 @@ import (
 	"strings"
 	"time"
 
-	sunspec "github.com/andig/gosunspec"
-	"github.com/andig/gosunspec/layout"
-	"github.com/andig/gosunspec/modbus"
-	_ "github.com/andig/gosunspec/models"
-	"github.com/andig/gosunspec/smdx"
-	"github.com/andig/gosunspec/xml"
 	modbusapi "github.com/grid-x/modbus"
+	sunspec "github.com/roockie-nebula/gosunspec"
+	"github.com/roockie-nebula/gosunspec/layout"
+	"github.com/roockie-nebula/gosunspec/modbus"
+	_ "github.com/roockie-nebula/gosunspec/models"
+	"github.com/roockie-nebula/gosunspec/smdx"
+	"github.com/roockie-nebula/gosunspec/xml"
 )
 
 func openModbus(device string, config func(handler *modbusapi.RTUClientHandler)) (modbusapi.Client, func(), error) {

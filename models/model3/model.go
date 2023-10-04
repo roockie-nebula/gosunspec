@@ -4,9 +4,9 @@ package model3
 // You can regenerate it by running 'go generate ./models' from the directory above.
 
 import (
-	"github.com/andig/gosunspec"
-	"github.com/andig/gosunspec/smdx"
-	"github.com/andig/gosunspec/typelabel"
+	"github.com/roockie-nebula/gosunspec"
+	"github.com/roockie-nebula/gosunspec/smdx"
+	"github.com/roockie-nebula/gosunspec/typelabel"
 )
 
 // Block3 - Secure Dataset Read Request - Request a digital signature over a specified set of data registers

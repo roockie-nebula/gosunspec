@@ -2,13 +2,13 @@ package layout
 
 import (
 	"encoding/binary"
-	sunspec "github.com/andig/gosunspec"
+	sunspec "github.com/roockie-nebula/gosunspec"
 	"net"
 
-	"github.com/andig/gosunspec/impl"
-	"github.com/andig/gosunspec/models/model1"
-	"github.com/andig/gosunspec/smdx"
-	"github.com/andig/gosunspec/spi"
+	"github.com/roockie-nebula/gosunspec/impl"
+	"github.com/roockie-nebula/gosunspec/models/model1"
+	"github.com/roockie-nebula/gosunspec/smdx"
+	"github.com/roockie-nebula/gosunspec/spi"
 )
 
 // SunspecLayout is the type of layout that understands the SunSpec layout conventions.

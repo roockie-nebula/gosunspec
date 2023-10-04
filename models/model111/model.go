@@ -4,9 +4,9 @@ package model111
 // You can regenerate it by running 'go generate ./models' from the directory above.
 
 import (
-	"github.com/andig/gosunspec"
-	"github.com/andig/gosunspec/smdx"
-	"github.com/andig/gosunspec/typelabel"
+	"github.com/roockie-nebula/gosunspec"
+	"github.com/roockie-nebula/gosunspec/smdx"
+	"github.com/roockie-nebula/gosunspec/typelabel"
 )
 
 // Block111 - Inverter (Single Phase) FLOAT - Include this model for single phase inverter monitoring using float values

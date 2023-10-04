@@ -2,8 +2,8 @@ package main
 
 import (
 	"flag"
-	"github.com/andig/gosunspec/layout"
 	"github.com/fatih/camelcase"
+	"github.com/roockie-nebula/gosunspec/layout"
 	"io/ioutil"
 	"log"
 	"os"
@@ -16,8 +16,8 @@ const layout_template = `
 package layout
 
 import (
-	"github.com/andig/gosunspec/layout"
-	"github.com/andig/gosunspec/generators/layout/util"
+	"github.com/roockie-nebula/gosunspec/layout"
+	"github.com/roockie-nebula/gosunspec/generators/layout/util"
 )
 
 var {{.Layout.Name}} = &layout.RawLayout{

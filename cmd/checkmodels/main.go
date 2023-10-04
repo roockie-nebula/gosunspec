@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	_ "github.com/andig/gosunspec/models"
-	"github.com/andig/gosunspec/smdx"
-	"github.com/andig/gosunspec/typelabel"
-	"github.com/andig/gosunspec/typelen"
+	_ "github.com/roockie-nebula/gosunspec/models"
+	"github.com/roockie-nebula/gosunspec/smdx"
+	"github.com/roockie-nebula/gosunspec/typelabel"
+	"github.com/roockie-nebula/gosunspec/typelen"
 	"log"
 	"os"
 )

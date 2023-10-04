@@ -2,8 +2,8 @@ package impl
 
 import (
 	"errors"
-	"github.com/andig/gosunspec"
-	"github.com/andig/gosunspec/spi"
+	"github.com/roockie-nebula/gosunspec"
+	"github.com/roockie-nebula/gosunspec/spi"
 )
 
 var (
